@@ -17,7 +17,7 @@ document.getElementById("updateAd").style.backgroundColor = "rgb(19 19 19)";
 document.getElementById("battlepassAd").style.backgroundColor = "rgb(19 19 19)";
 document.getElementById("modVote").style.backgroundColor = "rgb(19 19 19)";
 
-document.getElementById("menuBtnHost").style.border = "4px solid #4f4f4f!important";
+document.getElementById("menuBtnHost").style = "border: 4px solid #4f4f4f!important";
 document.getElementById("menuBtnBrowser").style = "border: 4px solid #4f4f4f!important";
 document.getElementById("inviteButton").style = "border: 4px solid #4f4f4f!important";
 document.getElementById("menuBtnJoin").style = "border: 4px solid #4f4f4f!important";
