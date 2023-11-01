@@ -7,6 +7,8 @@ new Function(uiplusRequest.responseText)();
 
 ```
 
+tampermonkey script:
+```
 // ==UserScript==
 // @name         Krunker UI+
 // @namespace    http://tampermonkey.net/
@@ -26,3 +28,5 @@ new Function(uiplusRequest.responseText)();
     uiplusRequest.send();
     new Function(uiplusRequest.responseText)();
 })();
+
+```
