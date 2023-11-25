@@ -4,19 +4,43 @@ document.getElementById("mapInfoHolder").style.backgroundColor = "rgb(37 37 37)"
 document.getElementById("topRightAdHolder").style.backgroundColor = "rgb(14 14 14 / 82%)";
 document.getElementById("streamContainer").style.backgroundColor = "rgb(14 14 14 / 82%)";
 
-document.getElementById("homeStoreAd").style.backgroundColor = "rgb(33 33 33)";
-document.getElementById("newUserGuide").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("krDiscountAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("twitchDropsAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("freeKRAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("doubleRaidDropsAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("doubleClassXPAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("doubleXPAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("eventAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("updateAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("battlepassAd").style.backgroundColor = "rgb(19 19 19)";
-document.getElementById("modVote").style.backgroundColor = "rgb(19 19 19)";
+function ifIs(iff, script) {
+    if (document.getElementById(iff)) {
+        script
+    }
+}
+ifIs('homeStoreAd', () => {
+    document.getElementById("homeStoreAd").style.backgroundColor = "rgb(33 33 33)";
+});
+ifIs('newUserGuide', () => {
+    document.getElementById("newUserGuide").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('krDiscountAd', () => {
+    document.getElementById("krDiscountAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('freeKRAd', () => {
+    document.getElementById("freeKRAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('doubleRaidDropsAd', () => {
+    document.getElementById("doubleRaidDropsAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('doubleClassXPAd', () => {
+    document.getElementById("doubleClassXPAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('doubleXPAd', () => {
+    document.getElementById("doubleXPAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('eventAd', () => {
+    document.getElementById("eventAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('updateAd', () => {
+    document.getElementById("updateAd").style.backgroundColor = "rgb(19 19 19)";
+});
+ifIs('battlepassAd', () => {
+    document.getElementById("battlepassAd").style.backgroundColor = "rgb(19 19 19)";
+});
 
+document.getElementById("modVote").style.backgroundColor = "rgb(19 19 19)";
 document.getElementById("menuBtnHost").style = "border: 4px solid #4f4f4f!important";
 document.getElementById("menuBtnBrowser").style = "border: 4px solid #4f4f4f!important";
 document.getElementById("inviteButton").style = "border: 4px solid #4f4f4f!important";
